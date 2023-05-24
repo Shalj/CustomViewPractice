@@ -5,7 +5,7 @@
 想法来源于[红橙Darren](https://www.jianshu.com/u/35083fcb7747)大佬，感兴趣可以点击查看[原文章](https://www.jianshu.com/p/e4de28b4d8ac)。
 我在原来的基础上，优化了一下动画上下反复的思路，由两个```Animator```（一上一下）变成了一个```Animator```，无限循环，上下反复。
 
-[!效果图]()
+![效果图](./screenshots/loading.gif)
 ```
 private fun initAnimators() {
         animatorSet = AnimatorSet().apply {
