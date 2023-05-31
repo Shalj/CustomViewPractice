@@ -11,12 +11,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="goLoading"
-        android:text="仿17年老58同城的loading" />
+        android:text="仿17年老58同城的loading"
+        android:textAllCaps="false" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="goRadar"
-        android:text="老QQ微信附近的人扫描效果" />
+        android:text="老QQ微信附近的人扫描效果"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goRating"
+        android:text="无级评分RatingView"
+        android:textAllCaps="false" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

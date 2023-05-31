@@ -19,10 +19,17 @@ class MainActivity : AppCompatActivity() {
     fun goRadar(view: View) {
         startActivity(buildIntent<RadarActivity>(this))
     }
+
+    fun goRating(view: View) {
+        startActivity(buildIntent<RatingActivity>(this))
+    }
 }
 
 const val EXTRA = "bundle"
-inline fun <reified T : AppCompatActivity> buildIntent(context: Context, bundleBlock: Bundle.() -> Unit = { }): Intent {
+inline fun <reified T : AppCompatActivity> buildIntent(
+    context: Context,
+    bundleBlock: Bundle.() -> Unit = { }
+): Intent {
     return Intent(context, T::class.java).apply {
         putExtra(EXTRA, Bundle().apply { bundleBlock() })
     }

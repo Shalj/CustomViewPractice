@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StarView">
+        <attr name="starColor" format="color" />
+        <attr name="starFilledColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RatingView">
+        <attr name="ratingStarSize" format="dimension" />
+        <attr name="ratingStarPadding" format="dimension" />
+        <attr name="ratingStarCount" format="integer" />
+        <attr name="ratingStarColor" format="color" />
+        <attr name="ratingStarFilledColor" format="color" />
+        <attr name="ratingTotalScore" format="integer" />
+    </declare-styleable>
+</resources>
