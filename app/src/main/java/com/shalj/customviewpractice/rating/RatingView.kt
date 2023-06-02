@@ -9,7 +9,6 @@ import android.view.Gravity
 import android.view.MotionEvent
 import android.widget.LinearLayout
 import com.shalj.customviewpractice.R
-import com.shalj.customviewpractice.logE
 import com.shalj.customviewpractice.mode
 import com.shalj.customviewpractice.size
 import kotlin.math.roundToInt
@@ -105,7 +104,6 @@ class RatingView @JvmOverloads constructor(
             width =
                 starCount * starSize + (starCount - 1) * starPadding + paddingLeft + paddingRight
         }
-        logE("RatingView", "width:$width")
         //高度取星星尺寸和LinearLayout的最大值
         val height = height.size.coerceAtLeast(starSize)
         setMeasuredDimension(width, height)
@@ -121,10 +119,6 @@ class RatingView @JvmOverloads constructor(
             }
 
             MotionEvent.ACTION_UP -> {
-                logE(
-                    "RatingView",
-                    "System.currentTimeMillis() - lastClickTime:${System.currentTimeMillis() - lastClickTime}"
-                )
                 if (System.currentTimeMillis() - lastClickTime < 200) {
                     val moveX = event.x - paddingLeft
                     //手指当前划动位置的子View下标
