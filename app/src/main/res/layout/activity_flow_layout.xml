@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view_group.flow_layout.FlowLayoutActivity">
+
+        <com.shalj.customviewpractice.view_group.flow_layout.FlowLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:background="#f1f1f1"
+            app:itemHorizontalSpace="8dp"
+            app:itemVerticalSpace="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aasdfsa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="aasdfasfdasaaasdfasfdasaaaaassaaaaasdfasfdasaaasdfasfdasaaaaassaaa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sadfasdfasd" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aasda" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aasga" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="324635" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdfasdfas" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aasda" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="aasdfassaaasdfasfdasaaaaassaaa" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sadfasdfasd" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aasda" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aasga" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="324635" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdfasdfas" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aasda" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aasga" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdfasdfas" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aasda" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aasga" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="324635" />
+
+            <TextView
+                style="@style/FlowLayout_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdfasdfas" />
+        </com.shalj.customviewpractice.view_group.flow_layout.FlowLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

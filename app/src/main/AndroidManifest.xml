@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CustomViewPractice"
         tools:targetApi="31">
         <activity
+            android:name=".view_group.flow_layout.FlowLayoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.bubble_side_bar.BubbleSideBarActivity"
             android:exported="false" />
         <activity

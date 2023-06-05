@@ -21,4 +21,9 @@
         <attr name="textSize" format="dimension" />
         <attr name="textVerticalPadding" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="itemVerticalSpace" format="dimension" />
+        <attr name="itemHorizontalSpace" format="dimension" />
+    </declare-styleable>
 </resources>

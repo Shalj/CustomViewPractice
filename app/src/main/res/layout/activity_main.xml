@@ -35,4 +35,11 @@
         android:text="通讯录/城市选择器等右侧 BubbleSideBar"
         android:textAllCaps="false" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goFlowLayout"
+        android:text="流式布局 FlowLayout"
+        android:textAllCaps="false" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>

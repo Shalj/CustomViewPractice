@@ -3,4 +3,13 @@
     <style name="Widget.Theme.CustomViewPractice.MyView" parent="">
         <item name="android:background">@color/gray_400</item>
     </style>
+
+    <style name="FlowLayout_TV">
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/flow_layout_tv_bg</item>
+    </style>
 </resources>

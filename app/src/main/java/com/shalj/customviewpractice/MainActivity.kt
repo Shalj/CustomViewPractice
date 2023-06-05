@@ -9,6 +9,7 @@ import com.shalj.customviewpractice.view.bubble_side_bar.BubbleSideBarActivity
 import com.shalj.customviewpractice.view.loading.LoadingActivity
 import com.shalj.customviewpractice.view.rader.RadarActivity
 import com.shalj.customviewpractice.view.rating.RatingActivity
+import com.shalj.customviewpractice.view_group.flow_layout.FlowLayoutActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,6 +31,10 @@ class MainActivity : AppCompatActivity() {
 
     fun goBubbleSideBar(view: View) {
         startActivity(buildIntent<BubbleSideBarActivity>(this))
+    }
+
+    fun goFlowLayout(view: View) {
+        startActivity(buildIntent<FlowLayoutActivity>(this))
     }
 }
 
