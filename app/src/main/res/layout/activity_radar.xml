@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".RadarActivity">
 
-    <com.shalj.customviewpractice.rader.RadarView
+    <com.shalj.customviewpractice.view.rader.RadarView
         android:layout_width="300dp"
         android:layout_height="300dp"
         app:layout_constraintBottom_toBottomOf="parent"

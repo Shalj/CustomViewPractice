@@ -1,4 +1,4 @@
-package com.shalj.customviewpractice.rating
+package com.shalj.customviewpractice.view.rating
 
 import android.annotation.SuppressLint
 import android.content.Context

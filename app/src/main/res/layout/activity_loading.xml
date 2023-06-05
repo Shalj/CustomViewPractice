@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".LoadingActivity">
 
-    <com.shalj.customviewpractice.loading.CustomLoadingView
+    <com.shalj.customviewpractice.view.loading.CustomLoadingView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.shalj.customviewpractice.rating.RatingView
+import com.shalj.customviewpractice.view.rating.RatingView
 import java.math.RoundingMode
 
 class RatingActivity : AppCompatActivity() {

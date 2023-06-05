@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".RatingActivity">
 
-    <com.shalj.customviewpractice.rating.RatingView
+    <com.shalj.customviewpractice.view.rating.RatingView
         android:id="@+id/rating"
         android:layout_width="wrap_content"
         android:layout_height="50dp"

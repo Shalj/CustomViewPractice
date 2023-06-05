@@ -1,4 +1,4 @@
-package com.shalj.customviewpractice.bubble_side_bar
+package com.shalj.customviewpractice.view.bubble_side_bar
 
 import android.os.Bundle
 import android.view.View

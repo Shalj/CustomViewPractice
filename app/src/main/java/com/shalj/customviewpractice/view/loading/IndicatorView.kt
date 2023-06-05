@@ -1,4 +1,4 @@
-package com.shalj.customviewpractice.loading
+package com.shalj.customviewpractice.view.loading
 
 import android.content.Context
 import android.graphics.Canvas

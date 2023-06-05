@@ -6,9 +6,9 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".bubble_side_bar.BubbleSideBarActivity">
+        tools:context=".view.bubble_side_bar.BubbleSideBarActivity">
 
-        <com.shalj.customviewpractice.bubble_side_bar.BubbleSideBar
+        <com.shalj.customviewpractice.view.bubble_side_bar.BubbleSideBar
             android:id="@+id/bubble_size_bar_left"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
             app:layout_constraintStart_toEndOf="@+id/bubble_size_bar_left"
             app:layout_constraintTop_toTopOf="@+id/bubble_size_bar_left" />
 
-        <com.shalj.customviewpractice.bubble_side_bar.BubbleSideBar
+        <com.shalj.customviewpractice.view.bubble_side_bar.BubbleSideBar
             android:id="@+id/bubble_size_bar_right"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"

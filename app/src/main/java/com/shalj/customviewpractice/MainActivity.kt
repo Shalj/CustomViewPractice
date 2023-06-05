@@ -5,7 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.shalj.customviewpractice.bubble_side_bar.BubbleSideBarActivity
+import com.shalj.customviewpractice.view.bubble_side_bar.BubbleSideBarActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

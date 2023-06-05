@@ -1,4 +1,4 @@
-package com.shalj.customviewpractice.rader
+package com.shalj.customviewpractice.view.rader
 
 import android.content.Context
 import android.graphics.Bitmap

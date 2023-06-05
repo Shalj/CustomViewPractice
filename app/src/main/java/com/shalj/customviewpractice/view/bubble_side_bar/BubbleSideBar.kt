@@ -1,4 +1,4 @@
-package com.shalj.customviewpractice.bubble_side_bar
+package com.shalj.customviewpractice.view.bubble_side_bar
 
 import android.annotation.SuppressLint
 import android.content.Context
