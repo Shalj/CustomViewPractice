@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RadarActivity">
+    tools:context=".view.rader.RadarActivity">
 
     <com.shalj.customviewpractice.view.rader.RadarView
         android:layout_width="300dp"

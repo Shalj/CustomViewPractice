@@ -6,6 +6,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.shalj.customviewpractice.view.bubble_side_bar.BubbleSideBarActivity
+import com.shalj.customviewpractice.view.loading.LoadingActivity
+import com.shalj.customviewpractice.view.rader.RadarActivity
+import com.shalj.customviewpractice.view.rating.RatingActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

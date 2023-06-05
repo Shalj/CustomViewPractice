@@ -16,13 +16,13 @@
             android:name=".view.bubble_side_bar.BubbleSideBarActivity"
             android:exported="false" />
         <activity
-            android:name=".RatingActivity"
+            android:name=".view.rating.RatingActivity"
             android:exported="false" />
         <activity
-            android:name=".RadarActivity"
+            android:name=".view.rader.RadarActivity"
             android:exported="false" />
         <activity
-            android:name=".LoadingActivity"
+            android:name=".view.loading.LoadingActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

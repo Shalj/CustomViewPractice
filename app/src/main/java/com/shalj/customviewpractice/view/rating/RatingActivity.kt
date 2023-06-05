@@ -1,10 +1,11 @@
-package com.shalj.customviewpractice
+package com.shalj.customviewpractice.view.rating
 
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.shalj.customviewpractice.view.rating.RatingView
+import com.shalj.customviewpractice.R
+import com.shalj.customviewpractice.logE
 import java.math.RoundingMode
 
 class RatingActivity : AppCompatActivity() {
