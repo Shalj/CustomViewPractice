@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.shalj.customviewpractice.bubble_side_bar.BubbleSideBarActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,6 +23,10 @@ class MainActivity : AppCompatActivity() {
 
     fun goRating(view: View) {
         startActivity(buildIntent<RatingActivity>(this))
+    }
+
+    fun goBubbleSideBar(view: View) {
+        startActivity(buildIntent<BubbleSideBarActivity>(this))
     }
 }
 

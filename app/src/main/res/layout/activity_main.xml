@@ -28,4 +28,11 @@
         android:text="无级评分RatingView"
         android:textAllCaps="false" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goBubbleSideBar"
+        android:text="通讯录/城市选择器等右侧 BubbleSideBar"
+        android:textAllCaps="false" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>

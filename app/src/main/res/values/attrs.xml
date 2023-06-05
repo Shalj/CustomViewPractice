@@ -14,4 +14,11 @@
         <attr name="ratingStarFilledColor" format="color" />
         <attr name="ratingTotalScore" format="integer" />
     </declare-styleable>
+
+    <declare-styleable name="BubbleSideBar">
+        <attr name="textColor" format="color" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textVerticalPadding" format="dimension" />
+    </declare-styleable>
 </resources>

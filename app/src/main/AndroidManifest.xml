@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CustomViewPractice"
         tools:targetApi="31">
         <activity
+            android:name=".bubble_side_bar.BubbleSideBarActivity"
+            android:exported="false" />
+        <activity
             android:name=".RatingActivity"
             android:exported="false" />
         <activity
