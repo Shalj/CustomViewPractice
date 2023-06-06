@@ -39,6 +39,7 @@ class FlowLayout @JvmOverloads constructor(
 
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec)
+        //onMeasure一般都会调用2次，每次调用的时候要把之前存储的View清除
         childrenForLineList.clear()
         //自身宽度
         val width = widthMeasureSpec.size
@@ -51,6 +52,10 @@ class FlowLayout @JvmOverloads constructor(
 
         for (i in 0 until childCount) {
             val child = getChildAt(i)
+            //如果当前view不可见，跳过计算
+            if (child.visibility == View.GONE) continue
+
+            //todo 如果有什么需要，在此处处理child的margin
             val params = child.layoutParams as MarginLayoutParams
             //测量子View的宽高
             measureChild(child, widthMeasureSpec, heightMeasureSpec)
@@ -86,15 +91,17 @@ class FlowLayout @JvmOverloads constructor(
 
         childrenForLineList.forEach { children ->
             children.forEach { child ->
-                //right 是当前子View的宽度 + left(同一行之前所有的子View和itemHorizontalSpace的和)
-                right = (left + child.measuredWidth)
-                    .coerceAtMost(width - paddingRight)
-                //bottom 是当前子view的高度
-                bottom = top + child.measuredHeight
-                child.layout(left, top, right, bottom)
+                if (child.visibility != View.GONE) {
+                    //right 是当前子View的宽度 + left(同一行之前所有的子View和itemHorizontalSpace的和)
+                    right = (left + child.measuredWidth)
+                        .coerceAtMost(width - paddingRight)
+                    //bottom 是当前子view的高度
+                    bottom = top + child.measuredHeight
+                    child.layout(left, top, right, bottom)
 
-                //left 是同一行之前所有的子View和itemHorizontalSpace的和
-                left += child.measuredWidth + itemHorizontalSpace
+                    //left 是同一行之前所有的子View和itemHorizontalSpace的和
+                    left += child.measuredWidth + itemHorizontalSpace
+                }
             }
             //当一行遍历结束, left重置, top下移一行
             left = paddingLeft
