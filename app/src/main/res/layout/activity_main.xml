@@ -11,21 +11,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="goLoading"
-        android:text="仿17年老58同城的loading"
+        android:text="仿17年老58同城的 Loading"
         android:textAllCaps="false" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="goRadar"
-        android:text="老QQ微信附近的人扫描效果"
+        android:text="老QQ微信附近的人扫描效果 RaderView"
         android:textAllCaps="false" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="goRating"
-        android:text="无级评分RatingView"
+        android:text="无级评分 RatingView"
         android:textAllCaps="false" />
 
     <Button
@@ -40,6 +40,20 @@
         android:layout_height="wrap_content"
         android:onClick="goFlowLayout"
         android:text="流式布局 FlowLayout"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goSlidingMenu"
+        android:text="仿微信侧滑菜单 SlidingMenu"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goQQSlidingMenu"
+        android:text="仿QQ侧滑菜单 SlidingMenu"
         android:textAllCaps="false" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

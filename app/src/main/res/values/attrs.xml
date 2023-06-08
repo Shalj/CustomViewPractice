@@ -26,4 +26,8 @@
         <attr name="itemVerticalSpace" format="dimension" />
         <attr name="itemHorizontalSpace" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="WechatSlidingMenu">
+        <attr name="contentRemainWidth" format="dimension" />
+    </declare-styleable>
 </resources>

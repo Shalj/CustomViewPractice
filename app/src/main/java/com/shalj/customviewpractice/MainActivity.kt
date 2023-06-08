@@ -10,6 +10,8 @@ import com.shalj.customviewpractice.view.loading.LoadingActivity
 import com.shalj.customviewpractice.view.rader.RadarActivity
 import com.shalj.customviewpractice.view.rating.RatingActivity
 import com.shalj.customviewpractice.view_group.flow_layout.FlowLayoutActivity
+import com.shalj.customviewpractice.view_group.sliding_menu.qq.QQSlidingMenuActivity
+import com.shalj.customviewpractice.view_group.sliding_menu.wechat.WechatSlidingMenuActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,6 +37,14 @@ class MainActivity : AppCompatActivity() {
 
     fun goFlowLayout(view: View) {
         startActivity(buildIntent<FlowLayoutActivity>(this))
+    }
+
+    fun goSlidingMenu(view: View) {
+        startActivity(buildIntent<WechatSlidingMenuActivity>(this))
+    }
+
+    fun goQQSlidingMenu(view: View) {
+        startActivity(buildIntent<QQSlidingMenuActivity>(this))
     }
 }
 
